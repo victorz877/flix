@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel de Filmes de Escola</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .film-card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+        }
+        .film-card img {
+            width: 100px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-right: 20px;
+        }
+        .film-info {
+            flex-grow: 1;
+        }
+        .film-info h2 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .film-info p {
+            margin: 5px 0;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Painel de Filmes de Escola</h1>
+        
+        <!-- Filme 1 -->
+        <div class="film-card">
+            <img src="https://upload.wikimedia.org/wikipedia/en/4/4c/Dead_Poets_Society.jpg" alt="Sociedade dos Poetas Mortos">
+            <div class="film-info">
+                <h2>Filme 1: Sociedade dos Poetas Mortos</h2>
+                <p>Descrição: Um professor de literatura inspira seus alunos a perseguirem suas paixões.</p>
+            </div>
+        </div>
+        
+        <!-- Filme 2 -->
+        <div class="film-card">
+            <img src="https://upload.wikimedia.org/wikipedia/en/2/2c/School_of_Rock_Poster.jpg" alt="Escola de Rock">
+            <div class="film-info">
+                <h2>Filme 2: Escola de Rock</h2>
+                <p>Descrição: Um músico fracassado se torna professor substituto e forma uma banda com seus alunos.</p>
+            </div>
+        </div>
+
+        <!-- Filme 3 -->
+        <div class="film-card">
+            <img src="https://upload.wikimedia.org/wikipedia/en/e/e4/Mean_Girls_film_poster.png" alt="Meninas Malvadas">
+            <div class="film-info">
+                <h2>Filme 3: Meninas Malvadas</h2>
+                <p>Descrição: Uma adolescente entra na vida social complexa de uma escola americana.</p>
+            </div>
+        </div>
+
+        <!-- Filme 4 -->
+        <div class="film-card">
+            <img src="https://upload.wikimedia.org/wikipedia/en/1/1d/Ferris_Bueller%27s_Day_Off.jpg" alt="Curtindo a Vida Adoidado">
+            <div class="film-info">
+                <h2>Filme 4: Curtindo a Vida Adoidado</h2>
+                <p>Descrição: Um estudante do ensino médio decide tirar um dia de folga e viver aventuras.</p>
+            </div>
+        </div>
+
+        <!-- Filme 5 -->
+        <div class="film-card">
+            <img src="https://upload.wikimedia.org/wikipedia/en/3/38/The_Breakfast_Club.jpg" alt="Clube dos Cinco">
+            <div class="film-info">
+                <h2>Filme 5: Clube dos Cinco</h2>
+                <p>Descrição: Cinco estudantes diferentes se unem durante uma detenção de sábado.</p>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
